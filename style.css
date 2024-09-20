@@ -1,6 +1,39 @@
 body{
     text-align: center;
+    
 }
-#turks {
-    text
+
+#index {
+    background-color: #1ab7ea;
+}
+
+#Turks {
+    font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  border: 2px solid black ;
+    
+}
+
+#beach {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100px;
+}
+
+#carousel {
+padding: 5% 10% 20%;
+
+}
+
+#caro {
+    border: 2px solid black ;
+    ;
+}
+
+#id {
+    height: auto;
+    width: auto;
 }

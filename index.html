@@ -7,12 +7,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
 </head>
 
-<body>
+<body id="index">
     <header>
         <!-- place navbar here -->
         <nav class="navbar navbar-light bg-light STICKY-top">
@@ -34,17 +38,15 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="Atractions.html">Attractions and Entertainment</a>
                             </li>
                             <li class="nav-item"></li>
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="food.html">Food</a>
                             </li>
-                            <li class="nav-item"></li>
-                            <a class="nav-link" href="#">Link</a>
-                            </li>
+                           
                         </ul>
                     </div>
 
@@ -59,20 +61,23 @@
 
     <div class="container-fluid mx-auto p-2">
         <div class="row text-center">
-            <div class="col border border-3 m-3 p-3" id="Turks">Turks & Caicos</div>
+            <div class="col m-3 p-3" id="Turks">Turks & Caicos</div>
         </div>
-        <div class="row text-center mt-3">
-        <div class="col">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="row text-center" id="beach">
+            <div class="col">Beaches Resort</div>
+        </div>
+        <div class="row text-center " id="carousel">
+        <div class="col p-0" id="caro">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" >
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="beaches beach.jpg" class="d-block w-100" alt="...">
+                    <img src="./imgs/beaches beach.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="beaches overview.jpg" class="d-block w-100" alt="...">
+                    <img src="./imgs/beaches overview.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="beaches pool.jpg" class="d-block w-100" alt="...">
+                    <img src="./imgs/beaches pool.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
