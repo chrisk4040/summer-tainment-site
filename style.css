@@ -47,9 +47,6 @@ h5 {
     font-family: "Bree Serif", serif;
 }
 
-#row, .col-6 {
-    justify-content: center;
-}
 
 .food {
     background-color: #98A869;
