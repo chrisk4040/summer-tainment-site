@@ -28,6 +28,11 @@ padding: 5% 10% 20%;
 
 }
 
+#carousel2 {
+    padding: 5% 10% 5%;
+    
+    }
+
 #caro {
     border: 2px solid black ;
     ;
@@ -36,4 +41,20 @@ padding: 5% 10% 20%;
 #id {
     height: auto;
     width: auto;
+}
+
+h5 {
+    font-family: "Bree Serif", serif;
+}
+
+#row, .col-6 {
+    justify-content: center;
+}
+
+.food {
+    background-color: #98A869;
+}
+
+.Entertainment {
+   background-color: #fcf3d5
 }
